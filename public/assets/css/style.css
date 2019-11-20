@@ -334,6 +334,7 @@ section.header {
 }
 
 .hero {
+    min-height: 750px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -407,25 +408,25 @@ header .logo img {
     height: 19px
 }
 
-header ul.primary-nav {
+header ul.header-nav {
     margin: 0 0 0 75px;
     padding: 0
 }
 
-header ul.primary-nav li {
+header ul.header-nav li {
     display: inline
 }
 
-header ul.primary-nav li a {
+header ul.header-nav li a {
     color: #fff;
     padding-right: 25px
 }
 
-header ul.primary-nav li a:hover {
+header ul.header-nav li a:hover {
     color: #F7B537
 }
 
-header ul.primary-nav li:last-child a {
+header ul.header-nav li:last-child a {
     padding-right: 0px
 }
 
@@ -445,7 +446,7 @@ header .header-nav {
     display: inline-block
 }
 
-header .member-actions {
+header .justify-content-end {
     position: absolute;
     right: 0;
     top: 41px;
@@ -596,6 +597,7 @@ header .member-actions {
 .features-extra .macbook-wrap {
     position: absolute;
     width: 916px;
+
     height: 540px;
     background: url("../img/macbook-pro.png") no-repeat center center;
     top: 114px;
